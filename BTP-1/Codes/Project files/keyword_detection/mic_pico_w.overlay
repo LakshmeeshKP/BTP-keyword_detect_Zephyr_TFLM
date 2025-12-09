@@ -9,7 +9,7 @@
 / {
 	zephyr,user {
 		io-channels = <&adc 0>;
-		//io-channels = <&adc 0 &adc 1 &adc 2>; //for multiple channel initialization
+		//io-channels = <&adc 0 &adc 1 &adc 2>; //for multiple channel initialization. only adc0 is used
 	};
 };
 
@@ -41,3 +41,4 @@
 		zephyr,resolution = <12>;
 	};
 };
+
