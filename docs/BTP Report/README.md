@@ -1,1 +1,1 @@
-
+The above report contains a basic guide to Zephyr and TFLM. I have included some basic background knowledge and setup required to get started, some useful references, and insight into my project built in BTP-1 phase. 
