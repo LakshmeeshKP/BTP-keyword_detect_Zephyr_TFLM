@@ -4,7 +4,7 @@
  * Copyright (c) 2022 TOKITA Hiroshi <tokita.hiroshi@fujitsu.com>
  */
 
-//from adc_dt sample project
+//refered from adc_dt sample project
 
 / {
 	zephyr,user {
@@ -41,4 +41,5 @@
 		zephyr,resolution = <12>;
 	};
 };
+
 
