@@ -1,11 +1,11 @@
-This folder includes the implementation of STFT using kissfft.h library. Note that the main project "heyword_detection" uses CMSIS-DSP library, and not this implementation. 
+This folder contains an implementation of the Short-Time Fourier Transform (STFT) using the KISS FFT (kissfft.h) library.
+Do note that the main project, heyword_detection, uses the CMSIS-DSP library; this implementation is provided as an independent reference.
 
+This implementation makes the following assumptions:
 
-Assumptions made in stft_lkp.c :
+1. The audio input duration is 1 second.
 
-1.audio input is 1sec long
-
-2.input datatype is int16 with range [-32768,32767]
+2. The input signal is of type int16_t, with a value range of [-32768, 32767].
 
 
 
