@@ -1,4 +1,4 @@
-build and test command:
+build and test commands:
 
 (activate the zephyr environment)<br>
 zephyrproject\.venv\Scripts\activate.bat<br>
