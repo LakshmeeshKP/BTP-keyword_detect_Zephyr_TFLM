@@ -1,0 +1,6 @@
+&vreg {
+	/delete-property/ regulator-allowed-modes;
+    regulator-boot-on;
+	regulator-min-microvolt = <1200000>;
+	regulator-max-microvolt = <1250000>;
+};
