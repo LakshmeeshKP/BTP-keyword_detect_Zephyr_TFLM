@@ -1,5 +1,2 @@
-Documentation Contents:
-- Completed speech keyword detection application 
-- Learnings related to Zephyr RTOS
-- Shell application : ADC-DMA streaming to PC
-- GTCRN speech enchancement model deployment on microcontroller 
+- The PC_streaming.c zephyr codes was designed for rpi pico. 
+- It continuously streams audio data from ADC via DMA to the PC via 2 virtual COM port. (one for data streaming, second for Zephyr printk logs and shell) 

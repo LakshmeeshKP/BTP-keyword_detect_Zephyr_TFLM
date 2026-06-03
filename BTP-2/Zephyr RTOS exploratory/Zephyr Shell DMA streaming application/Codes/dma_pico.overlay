@@ -1,0 +1,14 @@
+&zephyr_udc0 {
+    /* cdc-acm-console snippet already makes a port, so we make one more in addition */
+    cdc_acm_lkp: cdc_acm_lkp {
+        compatible = "zephyr,cdc-acm-uart";
+    };
+};
+
+&dma {
+	status="okay";
+};
+
+&adc {
+	status="okay";
+};
